@@ -6,6 +6,8 @@ let statistics ={
     blackCars:40,
     rareCars:2
 };
-for (const key in statistics){
-    console.log('$(key):${statistics[key]}');
+for (const property in statistics){
+    if(property.charAt(0)=='r' | statistics[property]%2!=0){
+    console.log(`${statistics[property]}`);
+    }
 }

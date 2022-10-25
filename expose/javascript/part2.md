@@ -14,3 +14,6 @@
 G:3undefined, undefined is converted to string in H. NaN,undefined is converted to NaN
 14. A.true,  string '2' is converted to number 2 B. false, javascript comapres string using letter by letter so '2'>'1' C. true, '2' is converted as number 2 D. false, ===compares two without conversion E. false, true's numeric value is 1 F. true, Boolean(2) is true
 15. basically == allow for conversions and then check if the two values are the same, === does not allow type conversions and is more strict. 
+16. in js
+17. [2,4,6], basically for every element in array[1,2,3], function doSomething is called and multiply each element by 2, with a for loop to iterate through the origional array, new array would be elements with 2 times the origional value. 
+18. 1,4,3,2
